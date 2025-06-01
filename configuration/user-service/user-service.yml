@@ -19,7 +19,7 @@ spring:
   cache:
     type: redis
   redis:
-    host: "${REDIS_HOST:host.docker.internal}"
+    host: "${REDIS_HOST:redis}"
     port: "${REDIS_PORT:6379}"
 
   # Service Discovery configuration
