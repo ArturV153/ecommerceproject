@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rajumb0232/E-Commerce-Microservice.git
-          default-label: master
+          uri: https://github.com/ArturV153/ecommerceproject.git
+          default-label: main
           searchPaths:
             - configuration
             - configuration/user-service
